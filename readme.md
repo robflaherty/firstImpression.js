@@ -4,7 +4,8 @@ firstImpression is a JavaScript micro-library that answers the question, "Has th
 `firstImpression()` returns `true` for a new user, `false` for a returning user. Calling `firstImpression()` also sets a cookie if one does not already exist. The default cookie name is `_firstImpression` and the default expiration is 2 years (730 days).
 
 ## Usage
-```// Basic usage
+```javascript
+// Basic usage
 if ( firstImpression() ) {
   console.log('New user');
 }
@@ -21,8 +22,11 @@ if ( firstImpression('foo', 365) ) {
 ```
 
 ## Removing cookies
-```// Basic usage
+```javascript
+// Remove default cookie
 firstImpression(null);
+
+// Remove custom named cookie
 firstImpression('foo', null);
 ```
 
