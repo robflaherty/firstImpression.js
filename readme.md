@@ -35,3 +35,4 @@ firstImpression('foo', null);
 
 ## License
 Licensed under the MIT and GPL licenses.
+
