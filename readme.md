@@ -29,6 +29,8 @@ firstImpression(null);
 // Remove custom named cookie
 firstImpression('foo', null);
 ```
+## Browser Support
+This should work in any browser that supports cookies. Tested in Chrome, Firefox, Opera, IE6-10, iOS, Android, and Opera Mobile.
 
 ## Contact
 [@robflaherty](https://twitter.com/#!/robflaherty)
