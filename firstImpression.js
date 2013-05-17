@@ -29,6 +29,9 @@ window.firstImpression = function(cookie, days) {
         time.setTime(time.getTime() + expiration * 24 * 60 * 60 * 1000);
       }
       
+      // Temporary fix for path problem
+      options.path = '/';
+
       return (document.cookie = [
         encodeURIComponent(key),
         '=',
